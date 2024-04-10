@@ -1,0 +1,83 @@
+/************ COMMON ************/
+body {
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+
+/************ HEADER ************/
+header {
+    width: 100%;
+    height: 100px;
+    /* debug */
+    background-color: blue;
+}
+
+
+/************ MAIN ************/
+main {
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+aside {
+    width: 80px;
+    height: 100vh;
+    /* debug */
+    background-color: lightseagreen;
+}
+
+.main-content {
+    width: calc(100% - 80px);
+    height: 100vh;
+    /* debug */
+    background-color: yellow;
+}
+
+.ms_content_top {
+    height: 200px;
+    width: 100vw;
+    /* debug */
+    background-color: gold;
+}
+
+.next-class {
+    /* debug */
+    height: 500px;
+    background-color: lawngreen;
+}
+
+.faq {
+    /* debug */
+    height: 300px;
+    background-color: orange;
+}
+
+.todo {
+    /* debug */
+    height: 200px;
+    background-color: green;
+}
+
+.active-users {
+    /* debug */
+    height: 350px;
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
